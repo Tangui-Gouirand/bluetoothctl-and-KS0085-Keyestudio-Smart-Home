@@ -18,6 +18,12 @@ Download [arduino][arduino] open source software
 
 ![Github](https://img.shields.io/github/v/release/arduino/Arduino)
 
+Detailed instructions for installation in popular operating systems can be found at:
+
+-  [Linux][Linux]
+-  [macOS][macOS]
+-  [Windows][Windows]
+
 # Bluetoothctl
 
 ## Installation
@@ -128,7 +134,8 @@ You can disable the notify with the following command :
 ```
 
 
-
-
+[Linux]: https://www.arduino.cc/en/Guide/Linux
+[macOS]: https://www.arduino.cc/en/Guide/macOS
+[Windows]: https://www.arduino.cc/en/Guide/Windows
 [arduino]: https://www.arduino.cc/en/Main/Software
 [gatt_menu]: https://www.bluetooth.com/specifications/specs/gatt-specification-supplement-6/
