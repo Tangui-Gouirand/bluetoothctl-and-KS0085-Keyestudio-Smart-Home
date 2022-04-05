@@ -1,25 +1,25 @@
-#+TITLE: bluetoothctl
+# TITLE: bluetoothctl
 
+## Table of contents :
 
-* Table of contents :TOC_2:
-- [[#installation][Installation]]
-- [[#checking][Checking]]
-- [[#usage][Usage]]
-  - [[#list-devices][List devices]]
-  - [[#add-new-alias][Add new alias]]
-  - [[#list-your-aliases][List your aliases]]
-  - [[#connect][Connect]]
+* [Installation](#installation)
+* [Checking before started](#checking)
+  - [Bluetooth Status](#checking-bluetooth-status)
+* [Usage](#usage)
+	- [search for bluetooth devicess](#use-bluetoothctl)
 
-* Installation
-** Install bluez
+## Installation
+
+### Install bluez
 
 ```bash
   sudo apt-get install bluez
 ```
 
-* Checking
+## Checking
 
-** Checking Bluetooth Status
+### Checking Bluetooth Status
+
 ```bash
   sudo systemctl status bluetooth
 ```
@@ -33,13 +33,16 @@ Then start the service
   sudo systemctl start bluetooth
 ```
 
-* Usage
+## Usage
 
 
-** Use bluetoothctl
+### Use bluetoothctl
+
 ```bash
   sudo bluetoothctl
 ```
+
+### search bluetooth devices
 
 You can start a scan by using the scanning on/off command
 ```bash
