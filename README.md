@@ -43,7 +43,7 @@ Then start the service
   sudo bluetoothctl
 ```
 
-### search bluetooth devices
+### Search bluetooth devices
 
 You can start a scan by using the scanning on/off command
 ```bash
@@ -59,7 +59,7 @@ You can disable the scanner when the operation of scanning is complete.
 [bluetooth]# scan off
 ```
 
-display bluetooth devices
+Display bluetooth devices
 ```bash
 [bluetooth]# devices
 Device E6:C1:6C:23:27:A3 TEST1
