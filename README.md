@@ -32,9 +32,6 @@ Then start the service
   sudo systemctl start bluetooth
 ```
 
-
-
-
 ### Use bluetoothctl
 ```bash
   sudo bluetoothctl
@@ -54,12 +51,7 @@ You can disable the scanner when the operation of scanning is complete.
 [bluetooth]# scan off
 ```
 
-
-
-
-
-
-
+display bluetooth devices
 ```bash
 [bluetooth]# devices
 Device E6:C1:6C:23:27:A3 TEST1
