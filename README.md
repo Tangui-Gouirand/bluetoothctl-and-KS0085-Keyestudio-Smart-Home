@@ -1,24 +1,25 @@
-# bluetoothctl
-
-## ARDUINO :</br>
+#+TITLE: bluetoothctl
 
 
+* Table of contents :TOC_2:
+- [[#installation][Installation]]
+- [[#checking][Checking]]
+- [[#usage][Usage]]
+  - [[#list-devices][List devices]]
+  - [[#add-new-alias][Add new alias]]
+  - [[#list-your-aliases][List your aliases]]
+  - [[#connect][Connect]]
 
-
-## On your Raspberry/PC :</br>
-
-
-
-### Install bluez
+* Installation
+** Install bluez
 
 ```bash
   sudo apt-get install bluez
 ```
 
+* Checking
 
-
-
-### Checking Bluetooth Status
+** Checking Bluetooth Status
 ```bash
   sudo systemctl status bluetooth
 ```
@@ -32,7 +33,10 @@ Then start the service
   sudo systemctl start bluetooth
 ```
 
-### Use bluetoothctl
+* Usage
+
+
+** Use bluetoothctl
 ```bash
   sudo bluetoothctl
 ```
