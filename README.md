@@ -8,6 +8,7 @@
 * [Usage](#usage)
 	- [Searchfor bluetooth devices](#use-bluetoothctl)
 	- [Start a connection](#start-a-connection)
+	- [READ and WRITE](#read-and-write)
 
 ## Installation
 
@@ -75,12 +76,14 @@ Now is the time to log in using the mac address of the desired device:
 [bluetooth]#connect 64:33:DB:92:B6:80
 ```
 
+
+### read-and-write
+
 Now you can enter the [gatt menu][gatt_menu] . Note that once you are connected, the target is not bluetooth anymore but your localname tag.
 
 ```bash
 [HMsoft]#menu gatt
 ```
-
 
 show the different services and characteristics
 
@@ -94,7 +97,7 @@ Enable the right properties for  to acquire notification and writing
 [HMsoft]#select-atribute /org/bluez/hci0/dev_64_33_DB_92_B6_80/service0010/char0011
 ```
 
-show bluetooth updates
+#### show bluetooth updates
 
 ```bash
 [HMsoft:/service0010/char0011]#read
@@ -106,16 +109,16 @@ You can disable the notify with the following command
 [HMsoft:/service0010/char0011]#notify off
 ```
 
-[HMsoft:/service0010/char0011]#write 0x72            = r </br>
-[HMsoft:/service0010/char0011]#write 0x73 0xda        = s</br>
+
+#### Write on bluetooth device
+
+```bash
+[HMsoft:/service0010/char0011]#write 0x72            = r 
+[HMsoft:/service0010/char0011]#write 0x73 0xda        = s
+```
 
 
-[HMsoft:/service0010/char0011]#write  0x2e     = .</br>
-[HMsoft:/service0010/char0011]#write  0x5f          = _</br>
-[HMsoft:/service0010/char0011]#write  0x5f         = _</br>
-[HMsoft:/service0010/char0011]#write  0x2e     = .</br>
-[HMsoft:/service0010/char0011]#write  0x5f         = _</br>
-[HMsoft:/service0010/char0011]#write  0x2e     = .</br>
-[HMsoft:/service0010/char0011]#write  0x76         = v</br>
+
+
 
 [gatt_menu]: https://www.bluetooth.com/specifications/specs/gatt-specification-supplement-6/
