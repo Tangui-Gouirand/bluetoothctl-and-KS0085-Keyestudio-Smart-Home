@@ -6,7 +6,8 @@
 * [Checking before started](#checking)
   - [Bluetooth Status](#checking-bluetooth-status)
 * [Usage](#usage)
-	- [search for bluetooth devicess](#use-bluetoothctl)
+	- [Searchfor bluetooth devices](#use-bluetoothctl)
+	- [Start a connection](#start-a-connection)
 
 ## Installation
 
@@ -24,7 +25,7 @@
   sudo systemctl status bluetooth
 ```
 
-If the Bluetooth service status is not active you will have to enable it first.</br>
+#### If the Bluetooth service status is not active you will have to enable it first :
 ```bash
   sudo systemctl enable bluetooth
 ```
@@ -66,13 +67,11 @@ Device E8:C1:8C:03:41:13 TEST2
 Device 64:33:DB:92:B6:80 HMsoft
 ```
 
+### Start a connection
+```bash
+[bluetooth]#connect 64:33:DB:92:B6:80
+```
 
-
-
-
-#bluetoothctl</br>
-[bluetoothctl]#scann on </br>
-[bluetoothctl]#connect 64:33:DB:92:B6:80</br>
 [HMsoft]#menu gatt</br>
 [HMsoft]#list-atribute</br>
 [HMsoft]#select-atribute /org/bluez/hci0/dev_64_33_DB_92_B6_80/service0010/char0011</br>
