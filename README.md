@@ -1,17 +1,17 @@
 # bluetoothctl
 
-ARDUINO :</br>
+## ARDUINO :</br>
 
 
 
 
-On your Raspberry/PC :</br>
+# On your Raspberry/PC :</br>
 
 
 
 
 
-## Install bluez
+### Install bluez
 
 ```bash
   sudo apt-get install bluez
@@ -20,7 +20,7 @@ On your Raspberry/PC :</br>
 
 
 
-## Checking Bluetooth Status
+### Checking Bluetooth Status
 ```bash
   sudo systemctl status bluetooth
 ```
@@ -37,7 +37,7 @@ Then start the service
 
 
 
-## Use bluetoothctl
+### Use bluetoothctl
 ```bash
   sudo bluetoothctl
 ```
