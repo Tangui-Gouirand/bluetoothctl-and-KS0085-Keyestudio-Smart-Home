@@ -1,7 +1,9 @@
 ## Table of contents :
 
 * [Keyestudio Arduino CODE](#keyestudio-arduino-code)
-  - [Arduino Installation](#arduino-installation)
+  - [Installation](#installation-keyestudio-arduino)
+  	- [Keyestudio wiring](#keyestudio-wiring)
+  	- [Arduino Installation](#arduino-installation)
 * [Bluetoothctl](#bluetoothctl)
   - [Installation](#installation)
   - [Checking before started](#checking)
@@ -15,7 +17,14 @@
 
 # Keyestudio Arduino CODE
 
-## Arduino Installation
+Official documentation for the assembly and wiring of the keyestudio connected house </br>
+[here](/smart-home-doc.pdf)
+
+## Installation Keyestudio Arduino
+
+### Keyestudio wiring
+
+### Arduino Installation
 Download [arduino][arduino] open source software
 
 ![Github](https://img.shields.io/github/v/release/arduino/Arduino)
