@@ -1,6 +1,7 @@
 ## Table of contents :
 
-* [Keyestudio Arduino CODE](#keyesstudio-arduino-code)
+* [Keyestudio Arduino CODE](#keyestudio-arduino-code)
+  - [Arduino Installation](#arduino-installation)
 * [Bluetoothctl](#bluetoothctl)
   - [Installation](#installation)
   - [Checking before started](#checking)
@@ -14,11 +15,12 @@
 
 # Keyestudio Arduino CODE
 
+## Arduino Installation
 Download [arduino][arduino] open source software
 
 ![Github](https://img.shields.io/github/v/release/arduino/Arduino)
 
-Detailed instructions for installation in popular operating systems can be found at:
+Detailed instructions for installation :
 
 -  [Linux][Linux]
 -  [macOS][macOS]
