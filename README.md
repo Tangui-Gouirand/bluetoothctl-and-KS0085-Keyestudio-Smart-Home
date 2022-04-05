@@ -1,4 +1,11 @@
-# bluetoothctl
+# bluetoothc
+
+ARDUINO :</br>
+
+
+
+
+On your Raspberry/PC :</br>
 
 #bluetoothctl</br>
 [bluetoothctl]#scann on </br>
