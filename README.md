@@ -57,7 +57,11 @@ You can disable the scanner when the operation of scanning is complete.
 ```
 
 
-bluetoothctl discoverable on
+
+
+
+
+
 ```bash
 [bluetooth]# devices
 Device E6:C1:6C:23:27:A3 TEST1
