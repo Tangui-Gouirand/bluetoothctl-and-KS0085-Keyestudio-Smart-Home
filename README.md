@@ -11,8 +11,12 @@
   	- [READ and WRITE](#read-and-write)
 		- [READ](#show-bluetooth-updates)
 		- [WRITE](#write-on-bluetooth-device)
-		- 
+
 # Keyestudio Arduino CODE
+
+Download [arduino][arduino] open source software
+
+![Github](https://img.shields.io/github/v/release/arduino/Arduino)
 
 # Bluetoothctl
 
@@ -126,5 +130,5 @@ You can disable the notify with the following command :
 
 
 
-
+[arduino]: https://www.arduino.cc/en/Main/Software
 [gatt_menu]: https://www.bluetooth.com/specifications/specs/gatt-specification-supplement-6/
