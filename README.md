@@ -9,6 +9,8 @@
 	- [Searchfor bluetooth devices](#use-bluetoothctl)
 	- [Start a connection](#start-a-connection)
 	- [READ and WRITE](#read-and-write)
+		- [READ](#show-bluetooth-updates)
+		- [WRITE](#write-on-bluetooth-device)
 
 ## Installation
 
@@ -77,7 +79,7 @@ Now is the time to log in using the mac address of the desired device:
 ```
 
 
-### read-and-write
+### Read and Write
 
 Now you can enter the [gatt menu][gatt_menu] . Note that once you are connected, the target is not bluetooth anymore but your localname tag.
 
