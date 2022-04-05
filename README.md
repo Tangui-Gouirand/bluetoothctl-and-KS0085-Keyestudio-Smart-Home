@@ -1,4 +1,4 @@
-# bluetoothc
+# bluetoothctl
 
 ARDUINO :</br>
 
