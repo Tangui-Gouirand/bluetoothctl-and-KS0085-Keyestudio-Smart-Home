@@ -39,7 +39,7 @@ Detailed instructions for installation :
 
 ## prerequisite
 Download my arduino code 
-[here](/test)
+[here](/Smart-home/)
 
 
 
