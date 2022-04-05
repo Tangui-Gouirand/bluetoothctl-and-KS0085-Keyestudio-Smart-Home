@@ -4,6 +4,7 @@
   - [Installation](#installation-keyestudio-arduino)
   	- [Keyestudio wiring](#keyestudio-wiring)
   	- [Arduino Installation](#arduino-installation)
+  - [prerequisite](#prerequisite)
 * [Bluetoothctl](#bluetoothctl)
   - [Installation](#installation)
   - [Checking before started](#checking)
@@ -34,6 +35,15 @@ Detailed instructions for installation :
 -  [Linux][Linux]
 -  [macOS][macOS]
 -  [Windows][Windows]
+
+
+## prerequisite
+Download my arduino code 
+[here](/test)
+
+
+
+
 
 # Bluetoothctl
 
