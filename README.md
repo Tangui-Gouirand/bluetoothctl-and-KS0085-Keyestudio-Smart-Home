@@ -115,8 +115,8 @@ You can disable the notify with the following command :
 #### Write on bluetooth device
 
 ```bash
-[HMsoft:/service0010/char0011]#write 0x72            = r 
-[HMsoft:/service0010/char0011]#write 0x73 0xda        = s
+[HMsoft:/service0010/char0011]#write 0x72
+[HMsoft:/service0010/char0011]#write 0x73 0xda
 ```
 
 
