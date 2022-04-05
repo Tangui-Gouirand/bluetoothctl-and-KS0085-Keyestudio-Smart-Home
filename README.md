@@ -1,4 +1,4 @@
-# TITLE: bluetoothctl
+# Bluetoothctl
 
 ## Table of contents :
 
