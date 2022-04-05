@@ -78,22 +78,33 @@ Now is the time to log in using the mac address of the desired device:
 Now you can enter the [gatt menu][gatt_menu] . Note that once you are connected, the target is not bluetooth anymore but your localname tag.
 
 ```bash
-[HMsoft]#menu gatt</br>
+[HMsoft]#menu gatt
 ```
 
 
+show the different services and characteristics
 
+```bash
+[HMsoft]#list-attributes 64:33:DB:92:B6:80
+```
 
+Enable the right properties for  to acquire notification and writing 
 
+```bash
+[HMsoft]#select-atribute /org/bluez/hci0/dev_64_33_DB_92_B6_80/service0010/char0011
+```
 
-[HMsoft]#list-atribute</br>
-[HMsoft]#select-atribute /org/bluez/hci0/dev_64_33_DB_92_B6_80/service0010/char0011</br>
-c’est l’atribute "characteristic" </br>
+show bluetooth updates
 
-[HMsoft:/service0010/char0011]#read</br>
-[HMsoft:/service0010/char0011]#notify on</br>
+```bash
+[HMsoft:/service0010/char0011]#read
+[HMsoft:/service0010/char0011]#notify on
+```
+You can disable the notify with the following command
 
-[HMsoft:/service0010/char0011]#notify off</br>
+```bash
+[HMsoft:/service0010/char0011]#notify off
+```
 
 [HMsoft:/service0010/char0011]#write 0x72            = r </br>
 [HMsoft:/service0010/char0011]#write 0x73 0xda        = s</br>
