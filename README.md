@@ -46,13 +46,18 @@ You can start a scan by using the scanning on/off command
 ```bash
 [bluetooth]# scan on
 ```
+If you can't find the Bluetooth device you are looking for, make sure that your system Bluetooth is discoverable.
+```bash
+[bluetooth]# discoverable on
+```
+
 You can disable the scanner when the operation of scanning is complete.
 ```bash
 [bluetooth]# scan off
 ```
 
 
-
+bluetoothctl discoverable on
 ```bash
 [bluetooth]# devices
 Device E6:C1:6C:23:27:A3 TEST1
