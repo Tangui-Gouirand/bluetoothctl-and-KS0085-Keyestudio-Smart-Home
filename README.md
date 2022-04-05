@@ -21,17 +21,17 @@
 
 ### Checking Bluetooth Status
 
-```bash
-  sudo systemctl status bluetooth
+```console
+YOURCOMPUTER:~$ sudo systemctl status bluetooth
 ```
 
 #### If the Bluetooth service status is not active you will have to enable it first :
-```bash
-  sudo systemctl enable bluetooth
+```console
+YOURCOMPUTER:~$ sudo systemctl enable bluetooth
 ```
 Then start the service
-```bash
-  sudo systemctl start bluetooth
+```console
+YOURCOMPUTER:~$ sudo systemctl start bluetooth
 ```
 
 ## Usage
@@ -39,15 +39,15 @@ Then start the service
 
 ### Use bluetoothctl
 
-```bash
-  sudo bluetoothctl
+```console
+YOURCOMPUTER:~$ sudo bluetoothctl
 ```
 
 ### Search bluetooth devices
 
 You can start a scan by using the scanning on/off command
-```bash
-[bluetooth]# scan on
+```bash 
+[bluetooth]:# scan on
 ```
 If you can't find the Bluetooth device you are looking for, make sure that your system Bluetooth is discoverable.
 ```bash
@@ -68,11 +68,24 @@ Device 64:33:DB:92:B6:80 HMsoft
 ```
 
 ### Start a connection
+
+Now is the time to log in using the mac address of the desired device:
+
 ```bash
 [bluetooth]#connect 64:33:DB:92:B6:80
 ```
 
+Now you can enter the [gatt menu][gatt_menu] . Note that once you are connected, the target is not bluetooth anymore but your localname tag.
+
+```bash
 [HMsoft]#menu gatt</br>
+```
+
+
+
+
+
+
 [HMsoft]#list-atribute</br>
 [HMsoft]#select-atribute /org/bluez/hci0/dev_64_33_DB_92_B6_80/service0010/char0011</br>
 c’est l’atribute "characteristic" </br>
@@ -93,3 +106,5 @@ c’est l’atribute "characteristic" </br>
 [HMsoft:/service0010/char0011]#write  0x5f         = _</br>
 [HMsoft:/service0010/char0011]#write  0x2e     = .</br>
 [HMsoft:/service0010/char0011]#write  0x76         = v</br>
+
+[gatt_menu]: https://www.bluetooth.com/specifications/specs/gatt-specification-supplement-6/
