@@ -77,7 +77,7 @@ Now is the time to log in using the mac address of the desired device :
 ```bash
 [bluetooth]#connect 64:33:DB:92:B6:80
 ```
-
+> Note that once you are connected, the target is not bluetooth anymore but your localname tag.
 
 ### Read and Write
 
@@ -86,7 +86,6 @@ Now you can enter the [gatt menu][gatt_menu] :
 ```bash
 [HMsoft]#menu gatt
 ```
-> Note that once you are connected, the target is not bluetooth anymore but your localname tag.
 
 show the different services and characteristics :
 
