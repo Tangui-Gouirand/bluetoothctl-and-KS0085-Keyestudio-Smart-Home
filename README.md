@@ -6,7 +6,7 @@
 * [Checking before started](#checking)
   - [Bluetooth Status](#checking-bluetooth-status)
 * [Usage](#usage)
-	- [Searchfor bluetooth devices](#use-bluetoothctl)
+	- [Search for bluetooth devices](#use-bluetoothctl)
 	- [Start a connection](#start-a-connection)
 	- [READ and WRITE](#read-and-write)
 		- [READ](#show-bluetooth-updates)
@@ -48,16 +48,16 @@ YOURCOMPUTER:~$ sudo bluetoothctl
 
 ### Search bluetooth devices
 
-You can start a scan by using the scanning on/off command
+You can start a scan by using the scanning on/off command :
 ```bash 
 [bluetooth]:# scan on
 ```
-If you can't find the Bluetooth device you are looking for, make sure that your system Bluetooth is discoverable.
+If you can't find the Bluetooth device you are looking for, make sure that your system Bluetooth is discoverable :
 ```bash
 [bluetooth]# discoverable on
 ```
 
-You can disable the scanner when the operation of scanning is complete.
+You can disable the scanner when the operation of scanning is complete :
 ```bash
 [bluetooth]# scan off
 ```
@@ -72,7 +72,7 @@ Device 64:33:DB:92:B6:80 HMsoft
 
 ### Start a connection
 
-Now is the time to log in using the mac address of the desired device:
+Now is the time to log in using the mac address of the desired device :
 
 ```bash
 [bluetooth]#connect 64:33:DB:92:B6:80
@@ -81,19 +81,20 @@ Now is the time to log in using the mac address of the desired device:
 
 ### Read and Write
 
-Now you can enter the [gatt menu][gatt_menu] . Note that once you are connected, the target is not bluetooth anymore but your localname tag.
+Now you can enter the [gatt menu][gatt_menu] :
 
 ```bash
 [HMsoft]#menu gatt
 ```
+> Note that once you are connected, the target is not bluetooth anymore but your localname tag.
 
-show the different services and characteristics
+show the different services and characteristics :
 
 ```bash
 [HMsoft]#list-attributes 64:33:DB:92:B6:80
 ```
 
-Enable the right properties for  to acquire notification and writing 
+Enable the right properties for  to acquire notification and writing :
 
 ```bash
 [HMsoft]#select-atribute /org/bluez/hci0/dev_64_33_DB_92_B6_80/service0010/char0011
@@ -105,7 +106,7 @@ Enable the right properties for  to acquire notification and writing
 [HMsoft:/service0010/char0011]#read
 [HMsoft:/service0010/char0011]#notify on
 ```
-You can disable the notify with the following command
+You can disable the notify with the following command :
 
 ```bash
 [HMsoft:/service0010/char0011]#notify off
