@@ -7,11 +7,35 @@ ARDUINO :</br>
 
 On your Raspberry/PC :</br>
 
+
+
+
+
 ## Install bluez
 
 ```bash
   sudo apt-get install bluez
 ```
+
+
+
+
+## Checking Bluetooth Status
+```bash
+  sudo systemctl status bluetooth
+```
+
+If the Bluetooth service status is not active you will have to enable it first.</br>
+```bash
+  sudo systemctl enable bluetooth
+```
+Then start the service
+```bash
+  sudo systemctl start bluetooth
+```
+
+
+
 
 ## Use bluetoothctl
 ```bash
@@ -26,6 +50,7 @@ You can disable the scanner when the operation of scanning is complete.
 ```bash
 [bluetooth]# scan off
 ```
+
 
 
 ```bash
