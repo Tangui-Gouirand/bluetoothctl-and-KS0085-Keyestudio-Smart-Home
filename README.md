@@ -153,7 +153,7 @@ You can disable the notify with the following command :
 [HMsoft:/service0010/char0011]#write 0x72
 [HMsoft:/service0010/char0011]#write 0x73 0xda
 ```
-> 0x72 corresponds to character "r"
+> 0x72 corresponds to character "r" </br>
 > 0x73 0xda corresponds to character "s"
 
 [Linux]: https://www.arduino.cc/en/Guide/Linux
