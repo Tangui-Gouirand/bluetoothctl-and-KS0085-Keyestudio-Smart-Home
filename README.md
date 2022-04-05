@@ -9,6 +9,9 @@ On your Raspberry/PC :</br>
 
 ## Install bluez
 
+```bash
+  sudo apt-get install bluez
+```
 
 ## Use bluetoothctl
 ```bash
