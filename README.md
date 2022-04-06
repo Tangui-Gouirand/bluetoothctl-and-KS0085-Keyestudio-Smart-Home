@@ -225,8 +225,8 @@ You can disable the notify with the following command :
 | q 	| 0x71	| interior yellow led off	|
 | r 	| 0x72	| fan on	|
 | s 	| 0x73 0x0A	| fan off	|
-| . 	| 0x2E	| Send _ to password for door	|
-| _ 	| 0x5F	| Send . to password for door	|
+| . 	| 0x2E	| Send "_" to password for door	|
+| _ 	| 0x5F	| Send "." to password for door	|
 | v 	| 0x76	| validate the door code	|
 
 	
