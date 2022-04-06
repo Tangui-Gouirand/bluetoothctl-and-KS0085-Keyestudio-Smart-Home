@@ -197,7 +197,7 @@ You can disable the notify with the following command :
 
 ```bash
 [HMsoft:/service0010/char0011]#write 0x72
-[HMsoft:/service0010/char0011]#write 0x73 0xda
+[HMsoft:/service0010/char0011]#write 0x73 0x0a
 ```
 > 0x72 corresponds to character "r" </br>
 > 0x73 0xda corresponds to character "s"
@@ -206,25 +206,25 @@ You can disable the notify with the following command :
 
 | character        | hexadecimal      | function |
 | ------|-----|-----|
-| a  	| 0x	| function 	|
-| b 	| 0x	| function	|
-| c 	| 0x	| function	|
-| d 	| 0x	| function	|
-| e 	| 0x	| function	|
-| f 	| 0x	| function	|
-| g 	| 0x	| function	|
-| h 	| 0x	| function	|
-| i 	| 0x	| function	|
-| j 	| 0x	| function	|
-| k 	| 0x	| function	|
-| l 	| 0x	| function	|
-| m 	| 0x	| function	|
-| n 	| 0x	| function	|
-| o 	| 0x	| function	|
-| p 	| 0x	| function	|
-| q 	| 0x	| function	|
-| r 	| 0x	| function	|
-| s 	| 0x	| function	|
+| a  	| 0x61	| function 	|
+| b 	| 0x62	| function	|
+| c 	| 0x63	| function	|
+| d 	| 0x64	| function	|
+| e 	| 0x65	| function	|
+| f 	| 0x66	| function	|
+| g 	| 0x67	| function	|
+| h 	| 0x69	| function	|
+| i 	| 0x69	| function	|
+| j 	| 0x6A	| function	|
+| k 	| 0x6B	| function	|
+| l 	| 0x6C	| function	|
+| m 	| 0x6D	| function	|
+| n 	| 0x6E	| function	|
+| o 	| 0x6F	| function	|
+| p 	| 0x70	| function	|
+| q 	| 0x71	| function	|
+| r 	| 0x72	| function	|
+| s 	| 0x73 0x0A	| function	|
 
 	
 <br></br>
