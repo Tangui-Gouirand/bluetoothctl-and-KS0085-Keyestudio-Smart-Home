@@ -202,6 +202,35 @@ You can disable the notify with the following command :
 > 0x72 corresponds to character "r" </br>
 > 0x73 0xda corresponds to character "s"
 
+
+
+| character        | hexadecimal      | function |
+| ------|-----|-----|
+| a  	| 0x	| function 	|
+| b 	| 0x	| function	|
+| c 	| 0x	| function	|
+| d 	| 0x	| function	|
+| e 	| 0x	| function	|
+| f 	| 0x	| function	|
+| g 	| 0x	| function	|
+| h 	| 0x	| function	|
+| i 	| 0x	| function	|
+| j 	| 0x	| function	|
+| k 	| 0x	| function	|
+| l 	| 0x	| function	|
+| m 	| 0x	| function	|
+| n 	| 0x	| function	|
+| o 	| 0x	| function	|
+| p 	| 0x	| function	|
+| q 	| 0x	| function	|
+| r 	| 0x	| function	|
+| s 	| 0x	| function	|
+
+	
+<br></br>
+
+
+
 [Linux]: https://www.arduino.cc/en/Guide/Linux
 [macOS]: https://www.arduino.cc/en/Guide/macOS
 [Windows]: https://www.arduino.cc/en/Guide/Windows
