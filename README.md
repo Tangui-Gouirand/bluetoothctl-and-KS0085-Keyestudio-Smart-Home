@@ -50,7 +50,7 @@ Download my arduino code
 Download liquidcrystal-i2c libraries :
 [here](https://www.arduino.cc/reference/en/libraries/liquidcrystal-i2c/)
 or directly on my github :
-[here](../libraries/liquidcrystal-i2c/)
+[here](../../tree/main/Smart_home/libraries/liquidcrystal-i2c/)
 
 
 # Bluetoothctl
