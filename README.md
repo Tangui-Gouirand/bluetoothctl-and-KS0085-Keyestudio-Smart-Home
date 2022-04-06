@@ -9,6 +9,7 @@
  		- [Download Arduino code](#download-arduino-code )
  		- [Download Arduino Libraries](#download-arduino-libraries )
  	 		- [Add Libraries to Arduino](#add-libraries-to-arduino)
+ 	 - [Arduino code for bluetooth control](#arduino-code-for-bluetooth-control)
 * [Bluetoothctl](#bluetoothctl)
   - [Installation](#installation)
   - [Checking before started](#checking)
@@ -65,7 +66,7 @@ To install a new library into your Arduino.</br>
 Open the Arduino and click to the "Sketch" menu and then Include Library > ADD Libraries zip.</br>
 Then select the library in your files</br>
 
-### Arduino code for bluetooth control
+## Arduino code for bluetooth control
 
 ```console
 void loop() {
