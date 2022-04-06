@@ -4,7 +4,8 @@
   - [Installation](#installation-keyestudio-arduino)
   	- [Keyestudio wiring](#keyestudio-wiring)
   	- [Arduino Installation](#arduino-installation)
-  - [prerequisite](#prerequisite)
+  - [Arduino Code](#arduino-code)
+    	- [prerequisite](#prerequisite)
 * [Bluetoothctl](#bluetoothctl)
   - [Installation](#installation)
   - [Checking before started](#checking)
@@ -37,7 +38,12 @@ Detailed instructions for installation :
 -  [Windows][Windows]
 
 
-## prerequisite
+
+
+## Arduino Code
+
+### prerequisite
+
 Download my arduino code 
 [here](../../tree/main/Smart_home)
 
