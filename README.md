@@ -6,6 +6,9 @@
   	- [Arduino Installation](#arduino-installation)
   - [Arduino Code](#arduino-code)
   	- [prerequisite](#prerequisite)
+ 		- [Download Arduino code](#download-arduino-code )
+ 		- [Download Arduino Libraries](#download-arduino-libraries )
+ 	 		- [Add Libraries to Arduino](#add-libraries-to-arduino)
 * [Bluetoothctl](#bluetoothctl)
   - [Installation](#installation)
   - [Checking before started](#checking)
@@ -16,6 +19,7 @@
   	- [READ and WRITE](#read-and-write)
 		- [READ](#show-bluetooth-updates)
 		- [WRITE](#write-on-bluetooth-device)
+
 
 # Keyestudio Arduino CODE
 
@@ -42,16 +46,20 @@ Detailed instructions for installation :
 
 ### prerequisite
 
+#### Download Arduino code 
 Download my arduino code 
 [here](../../tree/main/Smart_home)
 
 > the arduino code is complete but in this example we will just see the bluetooth part
+
+#### Download Arduino Libraries 
 
 Download liquidcrystal-i2c libraries directly on the arduino website :</br>
 [here](https://www.arduino.cc/reference/en/libraries/liquidcrystal-i2c/)</br>
 or directly on my github :</br>
 [here](../../blob/main/Smart_home/libraries/LiquidCrystal_I2C-1.1.2.zip)
 
+##### Add Libraries to Arduino
 
 # Bluetoothctl
 
