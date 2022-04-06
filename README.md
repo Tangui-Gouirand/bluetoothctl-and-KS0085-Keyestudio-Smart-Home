@@ -47,10 +47,10 @@ Download my arduino code
 
 > the arduino code is complete but in this example we will just see the bluetooth part
 
-Download liquidcrystal-i2c libraries :
-[here](https://www.arduino.cc/reference/en/libraries/liquidcrystal-i2c/)
-or directly on my github :
-[here](../../tree/main/Smart_home/libraries/liquidcrystal-i2c/)
+Download liquidcrystal-i2c libraries directly on the arduino website :</br>
+[here](https://www.arduino.cc/reference/en/libraries/liquidcrystal-i2c/)</br>
+or directly on my github :</br>
+[here](../../blob/main/Smart_home/libraries/LiquidCrystal_I2C-1.1.2.zip)
 
 
 # Bluetoothctl
