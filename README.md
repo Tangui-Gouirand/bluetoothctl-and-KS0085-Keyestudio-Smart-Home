@@ -206,10 +206,10 @@ You can disable the notify with the following command :
 
 | character        | hexadecimal      | function |
 | ------|-----|-----|
-| a  	| 0x61	| function 	|
-| b 	| 0x62	| function	|
-| c 	| 0x63	| function	|
-| d 	| 0x64	| function	|
+| a  	| 0x61	| sends a high value to a digital output pin 13	|
+| b 	| 0x62	| sends a low value to a digital output pin 13	|
+| c 	| 0x63	| sends a high value to a digital output pin 12	|
+| d 	| 0x64	| sends a low value to a digital output pin 12	|
 | e 	| 0x65	| launch music 1	|
 | f 	| 0x66	| launch music 2	|
 | g 	| 0x67	| stop music	|
