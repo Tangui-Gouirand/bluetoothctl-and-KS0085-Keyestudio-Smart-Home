@@ -210,21 +210,21 @@ You can disable the notify with the following command :
 | b 	| 0x62	| function	|
 | c 	| 0x63	| function	|
 | d 	| 0x64	| function	|
-| e 	| 0x65	| function	|
-| f 	| 0x66	| function	|
-| g 	| 0x67	| function	|
-| h 	| 0x69	| function	|
-| i 	| 0x69	| function	|
-| j 	| 0x6A	| function	|
-| k 	| 0x6B	| function	|
-| l 	| 0x6C	| function	|
-| m 	| 0x6D	| function	|
-| n 	| 0x6E	| function	|
-| o 	| 0x6F	| function	|
-| p 	| 0x70	| function	|
-| q 	| 0x71	| function	|
-| r 	| 0x72	| function	|
-| s 	| 0x73 0x0A	| function	|
+| e 	| 0x65	| launch music 1	|
+| f 	| 0x66	| launch music 2	|
+| g 	| 0x67	| stop music	|
+| h 	| 0x69	| return brightness value	|
+| i 	| 0x69	| return gas value	|
+| j 	| 0x6A	| return soil moisture value	|
+| k 	| 0x6B	| return water value	|
+| l 	| 0x6C	| open door	|
+| m 	| 0x6D	| closed door	|
+| n 	| 0x6E	| closed window	|
+| o 	| 0x6F	| Open window	|
+| p 	| 0x70	| interior yellow led on	|
+| q 	| 0x71	| interior yellow led off	|
+| r 	| 0x72	| fan on	|
+| s 	| 0x73 0x0A	| fan off	|
 
 	
 <br></br>
