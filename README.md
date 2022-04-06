@@ -5,7 +5,7 @@
   	- [Keyestudio wiring](#keyestudio-wiring)
   	- [Arduino Installation](#arduino-installation)
   - [Arduino Code](#arduino-code)
-    	- [prerequisite](#prerequisite)
+  	- [prerequisite](#prerequisite)
 * [Bluetoothctl](#bluetoothctl)
   - [Installation](#installation)
   - [Checking before started](#checking)
