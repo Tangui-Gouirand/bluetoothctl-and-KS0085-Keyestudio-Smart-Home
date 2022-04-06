@@ -41,7 +41,7 @@ Detailed instructions for installation :
 Download my arduino code 
 [here](../../tree/main/Smart_home)
 
-
+> the arduino code is complete but in this example we will just see the bluetooth part
 
 
 
