@@ -73,13 +73,13 @@ void loop() {
   	}
   	switch (val) {  //for bluetooth remote control / depending on what i get
     		case 'r'://if i get the character "r"  (fan on)
-      			Serial.println("fan on (remote control)");
+      			Serial.println("fan on (remote control)"); //print on remote screen
       			digitalWrite(7, LOW);
       			digitalWrite(6, HIGH);
       			val = "0"; //so that it doesn't loop
       			break;
     		case 's'://if i get the character "s"  (fan off)
-      			Serial.println("fan off (remote control)");
+      			Serial.println("fan off (remote control)"); //print on remote screen
       			digitalWrite(7, LOW);
       			digitalWrite(6, LOW);
       			val = "0"; //so that it doesn't loop
