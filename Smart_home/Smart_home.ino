@@ -101,17 +101,17 @@ void loop() {
     pwm_control();
   }
   switch (val) {//for bluetooth remote control
-    case 'a':
+    case 'a': //if i get the character "a"
       digitalWrite(13, HIGH);
-      val = "0";
+      val = "0"; //so that it doesn't loop
       break;
-    case 'b':
+    case 'b': //if i get the character "b"
       digitalWrite(13, LOW);
       val = "0";
       break;
     case 'c':
       digitalWrite(12, HIGH);
-      val = "0";
+      val = "0"; //so that it doesn't loop
       break;
     case 'd':
       digitalWrite(12, LOW);
@@ -119,44 +119,44 @@ void loop() {
       break;
     case 'e'://launch music 1
       music1();
-      val = "0";
+      val = "0"; //so that it doesn't loop
       break;
     case 'f'://launch music 2
       music2();
-      val = "0";
+      val = "0"; //so that it doesn't loop
       break;
     case 'g'://stop music
       noTone(3);
-      val = "0";
+      val = "0"; //so that it doesn't loop
       break;
     case 'h'://return brightness value
       Serial.print("brightness sensor value = ");
       Serial.println(light);
       delay(100);
-      val = "0";
+      val = "0"; //so that it doesn't loop
       break;
     case 'i'://return gas value
       Serial.print("gas sensor value = ");
       Serial.println(gas);
       delay(100);
-      val = "0";
+      val = "0"; //so that it doesn't loop
       break;
     case 'j'://return soil moisture value
       Serial.print("soil moisture value = ");
       Serial.println(sol);
       delay(100);
-      val = "0";
+      val = "0"; //so that it doesn't loop
       break;
     case 'k'://return water value
       Serial.print("valeur capteur d'eau = ");
       Serial.println(water);
       delay(100);
-      val = "0";
+      val = "0"; //so that it doesn't loop
       break;
     case 'l'://open door
       servo_9.write(100);
       delay(500);
-      val = "0";
+      val = "0"; //so that it doesn't loop
       break;
     case 'm'://closed door
       servo_9.write(10);
@@ -182,20 +182,18 @@ void loop() {
       digitalWrite(5, LOW);
       val = "0";
       break;
-    case 'r'://fan on
+    case 'r'://if i get the character "r"  (fan on)
       Serial.println("fan on (remote control)");
       digitalWrite(7, LOW);
       digitalWrite(6, HIGH);
       val = "0";
       break;
-    case 's'://fan off
+    case 's'://if i get the character "s"  (fan off)
       Serial.println("fan off (remote control)");
       digitalWrite(7, LOW);
       digitalWrite(6, LOW);
       val = "0";
       break;
-
-
     case '_':
       passblu = String(passblu) + String("_");//password value
       Serial.print(passblu);
@@ -213,6 +211,5 @@ void loop() {
       delay(500);
       val = "0";
       break;
-
   }
 }
