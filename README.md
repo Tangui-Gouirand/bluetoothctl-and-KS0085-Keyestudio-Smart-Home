@@ -61,6 +61,36 @@ or directly on my github :</br>
 
 ##### Add Libraries to Arduino
 
+
+
+
+### Arduino code for bluetooth control
+
+```console
+void loop() {
+	if (Serial.available() > 0) {
+    		val = Serial.read();
+    		//Serial.println(val);
+    		pwm_control();
+  	}
+  	switch (val) {  //for bluetooth remote control / depending on what i get
+    		case 'r'://if i get the character "r"  (fan on)
+      			Serial.println("fan on (remote control)");
+      			digitalWrite(7, LOW);
+      			digitalWrite(6, HIGH);
+      			val = "0";
+      			break;
+    		case 's'://if i get the character "s"  (fan off)
+      			Serial.println("fan off (remote control)");
+      			digitalWrite(7, LOW);
+      			digitalWrite(6, LOW);
+      			val = "0";
+      			break;
+ 	}
+}
+```
+
+
 # Bluetoothctl
 
 ## Installation
