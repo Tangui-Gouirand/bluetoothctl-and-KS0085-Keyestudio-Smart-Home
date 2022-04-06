@@ -100,7 +100,7 @@ void loop() {
     //Serial.println(val);
     pwm_control();
   }
-  switch (val) {//pour la telecommande bluetooth
+  switch (val) {//for bluetooth remote control
     case 'a':
       digitalWrite(13, HIGH);
       val = "0";
@@ -117,79 +117,79 @@ void loop() {
       digitalWrite(12, LOW);
       val = "0";
       break;
-    case 'e'://lancer musique 1
+    case 'e'://launch music 1
       music1();
       val = "0";
       break;
-    case 'f'://lancer musique 2
+    case 'f'://launch music 2
       music2();
       val = "0";
       break;
-    case 'g'://arreter musique
+    case 'g'://stop music
       noTone(3);
       val = "0";
       break;
-    case 'h'://retourner valeur luminosité
-      Serial.print("valeur capteur de luminosité = ");
+    case 'h'://return brightness value
+      Serial.print("brightness sensor value = ");
       Serial.println(light);
       delay(100);
       val = "0";
       break;
-    case 'i'://retourner valeur gaz
-      Serial.print("valeur capteur de gaz = ");
+    case 'i'://return gas value
+      Serial.print("gas sensor value = ");
       Serial.println(gas);
       delay(100);
       val = "0";
       break;
-    case 'j'://retourner valeur humidite sol
-      Serial.print("valeur humidite sol = ");
+    case 'j'://return soil moisture value
+      Serial.print("soil moisture value = ");
       Serial.println(sol);
       delay(100);
       val = "0";
       break;
-    case 'k'://retourner valeur eau
+    case 'k'://return water value
       Serial.print("valeur capteur d'eau = ");
       Serial.println(water);
       delay(100);
       val = "0";
       break;
-    case 'l'://porte ouverte
+    case 'l'://open door
       servo_9.write(100);
       delay(500);
       val = "0";
       break;
-    case 'm'://porte fermé
+    case 'm'://closed door
       servo_9.write(10);
       delay(500);
       val = "0";
       break;
       val = "0";
-    case 'n'://fenetre fermé
+    case 'n'://closed window
       servo_10.write(100);
       delay(500);
       val = "0";
       break;
-    case 'o'://fenetre ouverte
+    case 'o'://Open window
       servo_10.write(10);
       delay(500);
       val = "0";
       break;
-    case 'p'://led jaune interieur allumé
+    case 'p'://interior yellow led on
       digitalWrite(5, HIGH);
       val = "0";
       break;
-    case 'q'://led jaune interieur éteint
+    case 'q'://interior yellow led off
       digitalWrite(5, LOW);
       val = "0";
       break;
-    case 'r'://ventilateur allumé
-      Serial.println("ventilateur allumé (télécommande)");
+    case 'r'://fan on
+      Serial.println("fan on (remote control)");
       digitalWrite(7, LOW);
       digitalWrite(6, HIGH);
       val = "0";
       break;
-    case 's'://ventilateur éteint
-      Serial.println("ventilateur éteint (télécommande)");
+    case 's'://fan off
+      Serial.println("fan off (remote control)");
       digitalWrite(7, LOW);
       digitalWrite(6, LOW);
       val = "0";
@@ -197,17 +197,17 @@ void loop() {
 
 
     case '_':
-      passblu = String(passblu) + String("_");//valeur du mdp
+      passblu = String(passblu) + String("_");//password value
       Serial.print(passblu);
       val = "0";
       break;
     case '.':
-      passblu = String(passblu) + String(".");//valeur du mdp
+      passblu = String(passblu) + String(".");//password value
       Serial.print(passblu);
       val = "0";
       break;
     case 'v':
-      Serial.print("validation code (télécommande) .....");
+      Serial.print("validation code (remote control) .....");
       Serial.println(passblu);
       doorblue();
       delay(500);
