@@ -61,8 +61,9 @@ or directly on my github :</br>
 
 ##### Add Libraries to Arduino
 
-
-
+To install a new library into your Arduino.</br>
+Open the Arduino and click to the "Sketch" menu and then Include Library > ADD Libraries zip.</br>
+Then select the library in your files</br>
 
 ### Arduino code for bluetooth control
 
