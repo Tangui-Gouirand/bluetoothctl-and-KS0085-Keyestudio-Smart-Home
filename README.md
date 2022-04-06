@@ -38,8 +38,6 @@ Detailed instructions for installation :
 -  [Windows][Windows]
 
 
-
-
 ## Arduino Code
 
 ### prerequisite
@@ -49,6 +47,10 @@ Download my arduino code
 
 > the arduino code is complete but in this example we will just see the bluetooth part
 
+Download liquidcrystal-i2c libraries :
+[here](https://www.arduino.cc/reference/en/libraries/liquidcrystal-i2c/)
+or directly on my github :
+[here](../libraries/liquidcrystal-i2c/)
 
 
 # Bluetoothctl
